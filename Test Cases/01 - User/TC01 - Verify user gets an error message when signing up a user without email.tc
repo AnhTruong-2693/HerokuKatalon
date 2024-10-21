@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 - Verify user gets an error message when signing up a user without email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1799a039-52fd-46b5-873e-829dc5672f6a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b763495-ee60-4dfe-b713-b123af8f3d36</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05b3e3b4-3b10-4bf5-9a39-edbc3f26877f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0aa5811-e6cd-4747-88aa-7ddcda1e067f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb589c45-ebe9-48ab-8ac4-ae1813f81e16</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e3f814d-8958-4e82-936e-9862265d43ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://thinking-tester-contact-list.herokuapp.com/addUser'</defaultValue>
+      <description></description>
+      <id>8b763495-ee60-4dfe-b713-b123af8f3d36</id>
+      <masked>false</masked>
+      <name>addUserUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'User Anh 1'</defaultValue>
+      <description></description>
+      <id>05b3e3b4-3b10-4bf5-9a39-edbc3f26877f</id>
+      <masked>false</masked>
+      <name>userFirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'User Truong'</defaultValue>
+      <description></description>
+      <id>c0aa5811-e6cd-4747-88aa-7ddcda1e067f</id>
+      <masked>false</masked>
+      <name>userLastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'test@12345'</defaultValue>
+      <description></description>
+      <id>eb589c45-ebe9-48ab-8ac4-ae1813f81e16</id>
+      <masked>false</masked>
+      <name>userPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'User validation failed: email: Email is invalid'</defaultValue>
+      <description></description>
+      <id>8e3f814d-8958-4e82-936e-9862265d43ae</id>
+      <masked>false</masked>
+      <name>expectedMessage</name>
+   </variable>
+</TestCaseEntity>
