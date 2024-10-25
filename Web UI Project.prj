@@ -9,9 +9,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>9.6.0</modifiedVersion>
+   <modifiedVersion>9.7.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\HerokuProjectKatalon\My First Web UI Project (1).prj</projectFileLocation>
+   <projectFileLocation>D:\HerokuProjectKatalon\Web UI Project.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

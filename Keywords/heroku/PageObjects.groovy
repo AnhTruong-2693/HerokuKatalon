@@ -1,10 +1,9 @@
 package heroku
-import heroku.AddContactPage as AddContactPage
-import heroku.AddUserPage as AddUserPage
-import heroku.ContactDetailPage as ContactDetailPage
-import heroku.ContactListPage as ContactListPage
-import heroku.SignUpPage as SignUpPage
-import heroku.ElementPage as ElementPage
+import org.openqa.selenium.support.events.EventFiringWebDriver
+
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+import internal.GlobalVariable 
 
 
 public class PageObjects {
@@ -14,4 +13,5 @@ public class PageObjects {
 	static ContactListPage contactListPage = new ContactListPage()
 	static ContactDetailPage contactDetailPage = new ContactDetailPage()
 	static ElementPage elementPage = new ElementPage()
+	//private static final EventFiringWebDriver eventFiring = GlobalVariable.isAPIRunning ? null : ((DriverFactory.getWebDriver()) as EventFiringWebDriver).register(new NWebDriverEventHandler());
 }

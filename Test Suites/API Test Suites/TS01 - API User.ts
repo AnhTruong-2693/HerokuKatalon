@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS01 - API User</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f5562740-3916-45bd-8936-76d5a0324191</testSuiteGuid>
+   <testCaseLink>
+      <guid>4ee069e3-a596-461b-bb94-a05d6dee955b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC04 - Verify the user is able to login successfully after sending POST command for Login endpoint</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bbb373c4-b80b-4dc5-8083-777a10cac5e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC05 - Verify user is created successfully when sending POST command for Add User endpoint</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76e21513-8c0d-4ebf-bf74-0aef3a4f4974</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da589ac6-9fc6-4665-a29f-a2a31248157a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5dc0087a-16fe-4138-ba4b-24405b726102</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC06 - Verify user is updated successfully when sending PATCH command for update user endpoint</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a57f79f-c927-43a5-8a9c-893f0ea805fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09c51e88-f3d6-4319-b6d2-c7dc7e9980d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bdd6bbda-7a37-43a7-bec8-c518f0dac021</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14affb46-b7c4-44a3-b91d-f62b06116284</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>27049378-6d1f-46ec-8409-68c0930db66c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC07 - Verify user is deleted successfully when sending DELETE command for Delete User endpoint</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1d83b719-42da-4d9a-bacd-2638689802bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a242581d-adf1-4f25-b603-3352a9c82e16</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

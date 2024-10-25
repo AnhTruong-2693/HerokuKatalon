@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05 - Verify user is created successfully when sending POST command for Add User endpoint</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a48c701-17c5-4379-a128-8455f8aa4e55</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76e21513-8c0d-4ebf-bf74-0aef3a4f4974</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da589ac6-9fc6-4665-a29f-a2a31248157a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Anh'</defaultValue>
+      <description></description>
+      <id>76e21513-8c0d-4ebf-bf74-0aef3a4f4974</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Truong'</defaultValue>
+      <description></description>
+      <id>da589ac6-9fc6-4665-a29f-a2a31248157a</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>
