@@ -4,8 +4,8 @@ import internal.GlobalVariable
 
 
 '1. Send the Login User request'
-// Create loginPayload
-String loginPayload = JsonOutput.toJson([
+// Define loginPayload
+def loginPayload = JsonOutput.toJson([
     "email": GlobalVariable.email,
     "password": GlobalVariable.password
 ])

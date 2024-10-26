@@ -5,8 +5,8 @@ import internal.GlobalVariable
 
 
 '1. Send the Login User request'
-// Create loginPayload
-String loginPayload = JsonOutput.toJson([
+// Define loginPayload
+def loginPayload = JsonOutput.toJson([
     "email": GlobalVariable.email,
     "password": GlobalVariable.password
 ])
@@ -15,16 +15,13 @@ String loginPayload = JsonOutput.toJson([
 ApiObjects.baseAPI.createRequestObject()
     .sendRequest('/users/login', 'POST', loginPayload)
 
-'2. Get token after login'
-ApiObjects.baseAPI.getToken()
-
-'3. Send an add user request'
+'2. Send an add user request'
 // Create random email and password
 String userEmail = ApiObjects.baseAPI.createRandomEmail()
 String password = ApiObjects.baseAPI.createRandomPassword()
 
 // Create addUserPayload
-String addUserPayload = JsonOutput.toJson([
+def addUserPayload = JsonOutput.toJson([
     "firstName": firstName,
     "lastName": lastName,
     "email": "${userEmail}",
@@ -34,48 +31,47 @@ String addUserPayload = JsonOutput.toJson([
 // Send the POST Add User request
 ApiObjects.baseAPI.sendRequest('/users', 'POST', addUserPayload)
 
-'4. Verify the status code is 201'
+'3. Verify the status code is 201'
 ApiObjects.baseAPI.verifyStatusCode(201)
 
-'5. Verify the response data'
+'4. Verify the response data for new user'
 ApiObjects.baseAPI.verifyUserData("firstName", firstName)
 		.verifyUserData("lastName", lastName)
 		.verifyUserData("email", "${userEmail}")
 		
-'6. Get token after login'
+'5. Get token after creating new user'
 ApiObjects.baseAPI.getToken()
 		
-'7. Send the POST Add User request'
-// Create updateUserPayload
-String updateUserPayload = JsonOutput.toJson([
+'6. Send the PATCH Update User request'
+// Define updateUserPayload
+def updateUserPayload = JsonOutput.toJson([
     "firstName": updatedFirstName,
     "lastName": updatedLastName,
     "email": "new${userEmail}",
     "password": "${password}"
 ])
 
-// Send the POST Update User request
+// Send the PATCH Update User request
 ApiObjects.baseAPI.sendRequest('/users/me', 'PATCH', updateUserPayload)
 
-'8. Verify the status code is 200'
+'7. Verify the status code is 200'
 ApiObjects.baseAPI.verifyStatusCode(200)
 
-'9. Verify the response data'
-// Parse the JSON string to access properties
+'8. Verify the response data for updated user'
 def parsedUpdateUserPayload = new JsonSlurper().parseText(updateUserPayload)
 
-// Verify data
+// Verify data for updated user
 ApiObjects.baseAPI.verifyResponseData("firstName", parsedUpdateUserPayload.firstName)
 		.verifyResponseData("lastName", parsedUpdateUserPayload.lastName)
 		.verifyResponseData("email", parsedUpdateUserPayload.email)
 		
-'10. Send the GET User Profile request to verify yaer is updated correctly or not'
+'9. Send the GET User Profile request to verify user is updated correctly or not'
 ApiObjects.baseAPI.sendRequest('/users/me', 'GET')
 
-'11. Verify the status code is 200'
+'10. Verify the status code is 200'
 ApiObjects.baseAPI.verifyStatusCode(200)
 
-'12. Verify the response data'
+'11. Verify the response data'
 ApiObjects.baseAPI.verifyResponseData("firstName", parsedUpdateUserPayload.firstName)
 		.verifyResponseData("lastName", parsedUpdateUserPayload.lastName)
 		.verifyResponseData("email", parsedUpdateUserPayload.email)

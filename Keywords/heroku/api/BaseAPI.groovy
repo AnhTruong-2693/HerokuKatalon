@@ -1,6 +1,4 @@
 package heroku.api
-import static org.assertj.core.api.Assertions.*
-
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
@@ -8,53 +6,63 @@ import com.kms.katalon.core.testobject.TestObjectProperty
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
-
 import groovy.json.JsonSlurper
 import internal.GlobalVariable
 
+
 public class BaseAPI {
 
-	// Create class-level variable that can be referenced inside this method
+	// Create class-level variables
 	RequestObject requestObject;
 	ResponseObject responseObject;
 	ArrayList httpHeader;
 
-	//public static BaseAPI baseAPI = new BaseAPI()
-
-	// Create the request object
+	// Initialize a new API request object
 	def BaseAPI createRequestObject() {
 		requestObject = new RequestObject()
 		httpHeader = new ArrayList()
 		return this
 	}
+	
+	// Set httpHeader
+	def setHttpHeaders() {
+		// Clear and set content-type header
+		httpHeader.clear()
+		httpHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS, 'application/json'))
+	
+		// Add Authorization header if token exists
+		if (GlobalVariable.token) {
+			httpHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS, 'Bearer ' + GlobalVariable.token))
+		}
+	
+		// Set headers on the request object
+		requestObject.setHttpHeaderProperties(httpHeader)		
+	}
 
+	// Set request body
+	def void setRequestBody(String payload) {
+	    if (payload) {
+	        requestObject.setBodyContent(new HttpTextBodyContent(payload, "UTF-8", "application/json"))
+	    }
+	}
+	
 	// Send the request
 	def ResponseObject sendRequest(String uri, String method, String payload = '') {
 		// Set URL and method
 		requestObject.setRestUrl(GlobalVariable.baseUrl + uri)
 		requestObject.setRestRequestMethod(method)
-
-		// Clear and set content-type headers
-		httpHeader.clear()
-		httpHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS, 'application/json'))
-
-		// Add Authorization header if token exists
-		if (GlobalVariable.token) {
-			httpHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS, 'Bearer ' + GlobalVariable.token))
-		}
-		requestObject.setHttpHeaderProperties(httpHeader)
+		
+		// Set httpHeader
+		setHttpHeaders()
 
 		// Set request body if payload is provided
-		if (payload) {
-			requestObject.setBodyContent(new HttpTextBodyContent(payload, "UTF-8", "application/json"))
-		}
+		setRequestBody(payload)
 
-		// Send the request and capture the response
+		// Send the request and print out the response
 		responseObject = WS.sendRequest(requestObject)
 		println("Response body content is: " + responseObject.getResponseBodyContent())
 		return responseObject
 	}
-
 
 	// Get the response
 	def ResponseObject getResponse() {
@@ -62,15 +70,7 @@ public class BaseAPI {
 		return responseObject
 	}
 
-	// Get the userId
-	def String getuserId() {
-		def jsonResponse = new JsonSlurper().parseText(responseObject.getResponseBodyContent())
-		String userId = jsonResponse._id
-		println("User ID: " + userId)
-		return userId
-	}
-
-	// Verify response data after login or create new user
+	// Verify response data for login or create new user
 	def BaseAPI verifyUserData(String fieldName, String expectedValue) {
 		def jsonResponse = new JsonSlurper().parseText(responseObject.getResponseBodyContent())
 
@@ -78,13 +78,13 @@ public class BaseAPI {
 		def actualValue = jsonResponse.user."${fieldName}"
 
 		// Compare actual and expected values
-		assert actualValue == expectedValue : "Expected ${fieldName}: ${expectedValue}, but found: ${actualValue}"
+		WS.verifyEqual(actualValue, expectedValue)
 
 		println("${fieldName} verified successfully with actual value is: ${actualValue}")
 		return this
 	}
 
-	// Verify response data
+	// Verify response data for Contact or updated user
 	def BaseAPI verifyResponseData(String fieldName, String expectedValue) {
 		def jsonResponse = new JsonSlurper().parseText(responseObject.getResponseBodyContent())
 
@@ -92,7 +92,7 @@ public class BaseAPI {
 		def actualValue = jsonResponse."${fieldName}"
 
 		// Compare actual and expected values
-		assert actualValue == expectedValue : "Expected ${fieldName}: ${expectedValue}, but found: ${actualValue}"
+		WS.verifyEqual(actualValue, expectedValue)
 
 		println("${fieldName} verified successfully with actual value is: ${actualValue}")
 		return this
@@ -101,7 +101,6 @@ public class BaseAPI {
 	// Verify the status code
 	def BaseAPI verifyStatusCode(int statusCode) {
 		WS.verifyResponseStatusCode(responseObject, statusCode)
-
 		println("Status code is " + statusCode)
 		return this
 	}
@@ -115,7 +114,7 @@ public class BaseAPI {
 		if (responseBody?.trim().isEmpty()) {
 			println("Response body is empty.")
 			return true
-		} 
+		}
 		println("Response body is not empty.")
 		return false
 	}
@@ -127,7 +126,7 @@ public class BaseAPI {
 		println("Token: " + GlobalVariable.token)
 		return this
 	}
-	
+
 	// Create a random email
 	def String createRandomEmail() {
 		int randomNum = (int)(Math.random() * 1000)

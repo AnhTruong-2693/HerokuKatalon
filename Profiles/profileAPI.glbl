@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>userAPI</name>
+   <name>profileAPI</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -18,11 +18,6 @@
       <description></description>
       <initValue>'test@2024'</initValue>
       <name>password</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>true</initValue>
-      <name>isAPIRunning</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

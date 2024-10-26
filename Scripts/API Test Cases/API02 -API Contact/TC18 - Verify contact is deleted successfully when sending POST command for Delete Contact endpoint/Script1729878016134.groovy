@@ -3,8 +3,8 @@ import heroku.api.ApiObjects
 import internal.GlobalVariable
 
 '1. Send a login user request' 
-// Create loginPayload
-String loginPayload = JsonOutput.toJson([
+// Define loginPayload
+def loginPayload = JsonOutput.toJson([
     "email": GlobalVariable.email,
     "password": GlobalVariable.password
 ])
@@ -20,8 +20,8 @@ ApiObjects.baseAPI.getToken()
 // Create a random email
 String contactEmail = ApiObjects.baseAPI.createRandomEmail()
 
-// Create addContactPayload
-String addContactPayload = JsonOutput.toJson([
+// Define addContactPayload
+def addContactPayload = JsonOutput.toJson([
     "firstName": firstName,
     "lastName": lastName,
     "birthdate": birthdate,
@@ -41,8 +41,8 @@ ApiObjects.baseAPI.sendRequest('/contacts', 'POST', addContactPayload)
 '4. Verify the status code is 201'
 ApiObjects.baseAPI.verifyStatusCode(201)
 
-'5. Send the PATCH Update Contact request'
-ApiObjects.baseAPI.sendRequest('/contacts', 'PATCH', addContactPayload)
+'5. Send the DELETE Delete Contact request'
+ApiObjects.baseAPI.sendRequest('/contacts', 'DELETE')
 
 '6. Verify the status code is 503'
 ApiObjects.baseAPI.verifyStatusCode(503)

@@ -19,7 +19,7 @@
       <variableId>da589ac6-9fc6-4665-a29f-a2a31248157a</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Anh'</defaultValue>
+      <defaultValue>'TC05 Anh'</defaultValue>
       <description></description>
       <id>76e21513-8c0d-4ebf-bf74-0aef3a4f4974</id>
       <masked>false</masked>

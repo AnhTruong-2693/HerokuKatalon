@@ -66,6 +66,66 @@
       <value></value>
       <variableId>0303ee34-8e99-4e7f-8a75-b14a69d8785f</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>784411fd-ab47-4c1f-b318-73035c273efd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ffaef95e-15d1-49fa-b2b9-f9fcb930ad92</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ef000be-9c4e-419d-9b0d-58d13b1eb54b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d5b39ee-b173-40b3-85c0-eb151fe7124b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f10dd2b-2e45-42ad-be89-fe6cc5d84401</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb34cecf-5a53-43f1-81eb-bbf806249afb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ca1a41b-a2d4-4ffa-84f1-94be23552df0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91ed7b4f-5c37-4a2a-9cd6-3122a7a388da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b4eca7e-e586-4345-832d-fc9048e650e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3a73c57-def2-4034-a2af-fbd00e5ca424</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'TC17 Contact'</defaultValue>
       <description></description>
@@ -135,5 +195,75 @@
       <id>0303ee34-8e99-4e7f-8a75-b14a69d8785f</id>
       <masked>false</masked>
       <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC17 Contact1'</defaultValue>
+      <description></description>
+      <id>784411fd-ab47-4c1f-b318-73035c273efd</id>
+      <masked>false</masked>
+      <name>updatedFirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Name1'</defaultValue>
+      <description></description>
+      <id>ffaef95e-15d1-49fa-b2b9-f9fcb930ad92</id>
+      <masked>false</masked>
+      <name>updatedLastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'1970-02-02'</defaultValue>
+      <description></description>
+      <id>2ef000be-9c4e-419d-9b0d-58d13b1eb54b</id>
+      <masked>false</masked>
+      <name>updatedBirthdate</name>
+   </variable>
+   <variable>
+      <defaultValue>'0123455555'</defaultValue>
+      <description></description>
+      <id>8d5b39ee-b173-40b3-85c0-eb151fe7124b</id>
+      <masked>false</masked>
+      <name>updatedPhone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pham Van Dong'</defaultValue>
+      <description></description>
+      <id>6f10dd2b-2e45-42ad-be89-fe6cc5d84401</id>
+      <masked>false</masked>
+      <name>updatedStreet1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Thu Duc'</defaultValue>
+      <description></description>
+      <id>bb34cecf-5a53-43f1-81eb-bbf806249afb</id>
+      <masked>false</masked>
+      <name>updatedStreet2</name>
+   </variable>
+   <variable>
+      <defaultValue>'TP.HCM'</defaultValue>
+      <description></description>
+      <id>4ca1a41b-a2d4-4ffa-84f1-94be23552df0</id>
+      <masked>false</masked>
+      <name>updatedCity</name>
+   </variable>
+   <variable>
+      <defaultValue>'TP.Ho Chi Minh'</defaultValue>
+      <description></description>
+      <id>91ed7b4f-5c37-4a2a-9cd6-3122a7a388da</id>
+      <masked>false</masked>
+      <name>updatedStateProvince</name>
+   </variable>
+   <variable>
+      <defaultValue>'55555'</defaultValue>
+      <description></description>
+      <id>2b4eca7e-e586-4345-832d-fc9048e650e8</id>
+      <masked>false</masked>
+      <name>updatedPostalCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Viet Nam'</defaultValue>
+      <description></description>
+      <id>b3a73c57-def2-4034-a2af-fbd00e5ca424</id>
+      <masked>false</masked>
+      <name>updatedCountry</name>
    </variable>
 </TestCaseEntity>
