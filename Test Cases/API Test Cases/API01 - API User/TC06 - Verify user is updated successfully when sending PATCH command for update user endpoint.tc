@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC06 - Verify user is updated successfully when sending PATCH command for update user endpoint</name>
-   <tag></tag>
+   <tag>User - API</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ebe53991-245a-4159-90b7-426ca6e9fdc4</testCaseGuid>

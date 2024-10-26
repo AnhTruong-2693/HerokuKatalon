@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC11 - Verify contact is not updated when user click Cancel button</name>
-   <tag></tag>
+   <tag>Contact - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>0c58162a-53ca-4ce4-a059-61a5b6895163</testCaseGuid>
@@ -151,14 +151,14 @@
       <variableId>0f925200-000f-4f9e-916a-8cdc29e6264b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC11 Contact Name'</defaultValue>
+      <defaultValue>'TC11 Contact'</defaultValue>
       <description></description>
       <id>1697eee0-59d0-4ef8-bc93-d4e77873b0b2</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Name'</defaultValue>
       <description></description>
       <id>104e4be3-749f-4593-aefb-a8a88d68e5e3</id>
       <masked>false</masked>

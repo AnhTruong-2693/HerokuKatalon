@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC16 - Verify contact is created successfully when sending POST command for Add Contact endpoint</name>
-   <tag></tag>
+   <tag>Contact - API</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>3dcd5d9c-2e14-46bb-8624-987aa54ccecb</testCaseGuid>
@@ -67,7 +67,7 @@
       <variableId>38a5866c-62d0-4f6b-8206-0f9b1791e60f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC17 Contact'</defaultValue>
+      <defaultValue>'TC16 Contact'</defaultValue>
       <description></description>
       <id>2b7e6e9f-559b-46fc-b594-1940788b5629</id>
       <masked>false</masked>

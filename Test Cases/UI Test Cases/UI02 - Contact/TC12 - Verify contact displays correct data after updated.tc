@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC12 - Verify contact displays correct data after updated</name>
-   <tag></tag>
+   <tag>Contact - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8eec22ad-a012-405b-9bfa-12ffefc8ef33</testCaseGuid>
@@ -65,30 +65,6 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>e064a267-6c64-4745-8f9c-09b545d4b8a9</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3cd52460-9d3d-4d24-bf66-625c86bcdfd2</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ad251904-3460-4256-94c6-7368736b7988</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>1ab3801f-aeee-49bc-a0fe-104d15ddb89f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>da59d28b-cdc5-48f5-b578-e3df150d2bf9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -157,14 +133,14 @@
       <variableId>1dfd74ea-514c-4d44-8dc2-0184632ccbac</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC12 Name'</defaultValue>
+      <defaultValue>'TC12 Contact'</defaultValue>
       <description></description>
       <id>3e5d6522-f577-4da9-9645-694a5b87fb7d</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Name'</defaultValue>
       <description></description>
       <id>eda930ba-9d92-4d14-b3a4-966d45183647</id>
       <masked>false</masked>
@@ -178,7 +154,7 @@
       <name>dateOfBrith</name>
    </variable>
    <variable>
-      <defaultValue>'0123456012'</defaultValue>
+      <defaultValue>'0123450012'</defaultValue>
       <description></description>
       <id>c5f67d4d-fe1a-4c36-b948-85fcdd067fb6</id>
       <masked>false</masked>
@@ -227,35 +203,7 @@
       <name>country</name>
    </variable>
    <variable>
-      <defaultValue>'Contact Name Test'</defaultValue>
-      <description></description>
-      <id>3cd52460-9d3d-4d24-bf66-625c86bcdfd2</id>
-      <masked>false</masked>
-      <name>expectedName</name>
-   </variable>
-   <variable>
-      <defaultValue>'contacttest@gmail.com'</defaultValue>
-      <description></description>
-      <id>ad251904-3460-4256-94c6-7368736b7988</id>
-      <masked>false</masked>
-      <name>expectedEmail</name>
-   </variable>
-   <variable>
-      <defaultValue>'Addrest 1 Addrest 2'</defaultValue>
-      <description></description>
-      <id>1ab3801f-aeee-49bc-a0fe-104d15ddb89f</id>
-      <masked>false</masked>
-      <name>expectedAddress</name>
-   </variable>
-   <variable>
-      <defaultValue>'HCM Ho CHi Minh 70000'</defaultValue>
-      <description></description>
-      <id>da59d28b-cdc5-48f5-b578-e3df150d2bf9</id>
-      <masked>false</masked>
-      <name>expectedCityCode</name>
-   </variable>
-   <variable>
-      <defaultValue>'TC12 Name@'</defaultValue>
+      <defaultValue>'TC12 Contact1'</defaultValue>
       <description></description>
       <id>863f6058-f899-4686-9ffb-be89877521cb</id>
       <masked>false</masked>
@@ -318,7 +266,7 @@
       <name>stateOrProvinceEdit</name>
    </variable>
    <variable>
-      <defaultValue>'77777'</defaultValue>
+      <defaultValue>'121212'</defaultValue>
       <description></description>
       <id>3ba918c5-ca20-44d6-b9ed-1ef830955585</id>
       <masked>false</masked>

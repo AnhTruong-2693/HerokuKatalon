@@ -6,8 +6,8 @@ import internal.GlobalVariable
 '1. Send the Login User request'
 // Define loginPayload
 def loginPayload = JsonOutput.toJson([
-    "email": GlobalVariable.email,
-    "password": GlobalVariable.password
+	"email": GlobalVariable.email,
+	"password": GlobalVariable.password
 ])
 
 // Send the POST Login User request

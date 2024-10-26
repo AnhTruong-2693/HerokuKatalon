@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC10 - Verify error message when updating contact with invalid Date of Birth format</name>
-   <tag></tag>
+   <tag>Contact - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>c2456a76-3e50-41e9-b6ea-a9231ad4f098</testCaseGuid>
@@ -79,14 +79,14 @@
       <variableId>d6a05ab6-15cb-4e67-9ec6-fe10879702ef</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC10 Contact Name'</defaultValue>
+      <defaultValue>'TC10 Contact'</defaultValue>
       <description></description>
       <id>a414aeb7-c253-4ccf-9bdf-1a04b0240347</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Name'</defaultValue>
       <description></description>
       <id>bbc99dd7-19ac-4ca4-bab0-b23d66873433</id>
       <masked>false</masked>
@@ -100,7 +100,7 @@
       <name>dateOfBrith</name>
    </variable>
    <variable>
-      <defaultValue>'0123456010'</defaultValue>
+      <defaultValue>'0123450010'</defaultValue>
       <description></description>
       <id>faabcada-1872-470e-9ac5-6c7b1f673884</id>
       <masked>false</masked>

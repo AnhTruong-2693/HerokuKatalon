@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC03 - Verify user can login successfully</name>
-   <tag></tag>
+   <tag>User - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>cfa5681f-0816-4cc0-bb20-80c231143122</testCaseGuid>
@@ -44,14 +44,14 @@
       <name>addUserUrl</name>
    </variable>
    <variable>
-      <defaultValue>'User'</defaultValue>
+      <defaultValue>'TC03 Anh'</defaultValue>
       <description></description>
       <id>8ef95e96-bce6-488e-82e0-66e27d65d8c6</id>
       <masked>false</masked>
       <name>userFirstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Truong'</defaultValue>
       <description></description>
       <id>42480cbb-d46e-4007-9701-32c713fd873f</id>
       <masked>false</masked>

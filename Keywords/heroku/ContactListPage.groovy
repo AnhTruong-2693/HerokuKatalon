@@ -28,7 +28,7 @@ public class ContactListPage {
 			actualValue = WebUI.getText(Pages.elementPage.byXpath(xpath))
 		}
 
-		KeywordUtil.logInfo("The column '${columnName}' has actual value is " + actualValue.toString())
+		KeywordUtil.logInfo("The '${columnName}' has actual value is " + actualValue.toString())
 		WebUI.verifyEqual(actualValue, expectedValue)
 		return this
 	}
@@ -36,7 +36,7 @@ public class ContactListPage {
 
 	def int countRow() {
 		WebDriver driver = DriverFactory.getWebDriver()
-		WebUI.delay(10)
+		WebUI.delay(5)
 		WebElement tableElement = driver.findElement(By.xpath("//table[@class='contactTable']"))
 		List<WebElement> bodyRows = tableElement.findElements(By.xpath("//tr[@class='contactTableBodyRow']"))
 

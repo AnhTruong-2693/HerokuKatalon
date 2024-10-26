@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC04 - Verify the user is able to login successfully after sending POST command for Login endpoint</name>
-   <tag></tag>
+   <tag>User - API</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>5a44c5d9-f9f0-40e3-b82e-6b31a0e25bd4</testCaseGuid>

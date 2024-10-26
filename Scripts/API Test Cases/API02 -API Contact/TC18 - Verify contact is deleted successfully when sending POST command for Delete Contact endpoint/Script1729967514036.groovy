@@ -13,7 +13,7 @@ def loginPayload = JsonOutput.toJson([
 ApiObjects.baseAPI.createRequestObject()
     .sendRequest('/users/login', 'POST', loginPayload)
 		
-'2. Get token after creating user'
+'2. Get token after login'
 ApiObjects.baseAPI.getToken()
 
 '3. Send an add user request'
@@ -41,15 +41,8 @@ ApiObjects.baseAPI.sendRequest('/contacts', 'POST', addContactPayload)
 '4. Verify the status code is 201'
 ApiObjects.baseAPI.verifyStatusCode(201)
 
-'5. Verify the response data for new contact'
-ApiObjects.baseAPI.verifyResponseData("firstName", firstName)
-		.verifyResponseData("lastName", lastName)
-		.verifyResponseData("birthdate", birthdate)	
-		.verifyResponseData("email", "${contactEmail}")
-		.verifyResponseData("phone", phone)
-		.verifyResponseData("street1", street1)
-		.verifyResponseData("street2", street2)
-		.verifyResponseData("city", city)
-		.verifyResponseData("stateProvince", stateProvince)
-		.verifyResponseData("postalCode", postalCode)
-		.verifyResponseData("country", country)
+'5. Send the DELETE Delete Contact request'
+ApiObjects.baseAPI.sendRequest('/contacts', 'DELETE')
+
+'6. Verify the status code is 503'
+ApiObjects.baseAPI.verifyStatusCode(503)

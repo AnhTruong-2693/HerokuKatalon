@@ -35,7 +35,7 @@ class AddUserPage {
 
 	def String createRandomEmail() {
 		int randomNum = (int)(Math.random() * 1000);
-		String email = "useremailtest${randomNum}@gmail.com"
+		String email = "useremail${randomNum}@gmail.com"
 		return email
 	}
 

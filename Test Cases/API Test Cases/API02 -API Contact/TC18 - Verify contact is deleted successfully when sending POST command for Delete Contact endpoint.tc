@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC18 - Verify contact is deleted successfully when sending POST command for Delete Contact endpoint</name>
-   <tag></tag>
+   <tag>Contact - API</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>26408d41-4977-4366-ba81-5e4050e42175</testCaseGuid>
@@ -67,7 +67,7 @@
       <variableId>5947b632-b0dc-46e8-bc54-0fcab218b7b5</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC16 Contact'</defaultValue>
+      <defaultValue>'TC18 Contact'</defaultValue>
       <description></description>
       <id>c274f5ce-7ec2-4121-8e1c-ae0ef155ba9f</id>
       <masked>false</masked>

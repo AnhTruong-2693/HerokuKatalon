@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC07 - Verify user is deleted successfully when sending DELETE command for Delete User endpoint</name>
-   <tag></tag>
+   <tag>User - API</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>4fb40a51-ea69-4512-ae12-c79c7e1d144b</testCaseGuid>

@@ -4,7 +4,7 @@
    <name>TS01 - User</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>anhtruong@kms-technology.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

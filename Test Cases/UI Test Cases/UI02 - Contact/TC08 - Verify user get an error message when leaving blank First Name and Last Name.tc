@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC08 - Verify user get an error message when leaving blank First Name and Last Name</name>
-   <tag></tag>
+   <tag>Contact - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a1b6a8ba-da0e-4d7b-a60f-741298cfbb80</testCaseGuid>

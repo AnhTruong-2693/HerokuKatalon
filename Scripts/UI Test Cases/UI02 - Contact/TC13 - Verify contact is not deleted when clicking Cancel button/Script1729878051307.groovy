@@ -23,7 +23,7 @@ Pages.addContactPage.inputFirstName(firstName)
         .inputEmail(contactEmail)
         .inputPhone(phone)
         .inputStreetAddress1(streetAddress1)
-        .inputStreetAddress2(streetAddress2)
+		.inputStreetAddress2(streetAddress2)
         .inputCity(city)
         .inputStateOrProvince(stateOrProvince)
         .inputPostalCode(postalCode)
@@ -33,26 +33,40 @@ Pages.addContactPage.inputFirstName(firstName)
 '5. Count contact row'
 int countContactRow = Pages.contactListPage.countRow()
 
-'6. Open detail contact'
+'6. Verify newly created data in the table'
+// Prepare expected values for combine fields
+String expectedName = "${firstName} ${lastName}"
+String expectedAddress = "${streetAddress1} ${streetAddress2}"
+String expectedCityCode = "${city} ${stateOrProvince} ${postalCode}"
+
+// Verify data shown in table
+Pages.contactListPage.verifyDataInTable('Name', expectedName)
+		.verifyDataInTable('Birthdate', dateOfBrith)
+		.verifyDataInTable('Email', contactEmail)
+		.verifyDataInTable('Phone', phone)
+		.verifyDataInTable('Address', expectedAddress)
+		.verifyDataInTable('City, State/Province, Postal Code', expectedCityCode)
+
+'7. Open detail contact'
 Pages.contactListPage.clickDataOnTable('Phone', phone)
 
-'7. Click Edit Contact button'
+'8. Click Edit Contact button'
 Pages.contactDetailPage.clickDeleteContact().confirmNotDelete()
 		
 WebUI.delay(3)
 
-'8. Verify user is still on Contact Detail page'
+'9. Verify user is still on Contact Detail page'
 Pages.contactDetailPage.verifyUrl(contactDetailsUrl)
 
-'9. Click Return to Contact List'
+'10. Click Return to Contact List'
 Pages.contactDetailPage.clickReturnToContactList()
 
 WebUI.delay(3)
 
-'10. Verify number of record'
+'11. Verify number of record'
 Pages.contactListPage.verifyNumberOfRow(countContactRow)
 
-'11. Verify data is displayed in table'
+'12. Verify data is displayed in table'
 Pages.contactListPage.verifyDataInTable('Name', expectedName)
 		.verifyDataInTable('Birthdate', dateOfBrith)
 		.verifyDataInTable('Email', contactEmail)

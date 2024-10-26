@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC13 - Verify contact is not deleted when clicking Cancel button</name>
-   <tag></tag>
+   <tag>Contact - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7148684e-1b7f-4245-9c79-64997533380d</testCaseGuid>
@@ -70,41 +70,17 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6ac14b95-7bab-47a4-b0be-aa7858b4ad68</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9ade304e-dfc7-4650-8702-224b045e96f8</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c08c58a7-c921-40bf-b200-32b0a1f46ad6</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f29a2f80-9c3a-46da-b213-2d7f32277ea5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>9529b184-94f0-4714-882f-ac945b680fe7</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC13 Contact Name'</defaultValue>
+      <defaultValue>'TC13 Contact'</defaultValue>
       <description></description>
       <id>dd7f8f83-4f79-403c-bbe8-aaf2b6606425</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Name'</defaultValue>
       <description></description>
       <id>c9a2c8f3-7290-4312-91e2-90544d2f9d9c</id>
       <masked>false</masked>
@@ -165,34 +141,6 @@
       <id>b9465fdf-6302-43a0-98d3-5233ed9aff14</id>
       <masked>false</masked>
       <name>country</name>
-   </variable>
-   <variable>
-      <defaultValue>'TC13 Contact Name Test'</defaultValue>
-      <description></description>
-      <id>6ac14b95-7bab-47a4-b0be-aa7858b4ad68</id>
-      <masked>false</masked>
-      <name>expectedName</name>
-   </variable>
-   <variable>
-      <defaultValue>'contacttest@gmail.com'</defaultValue>
-      <description></description>
-      <id>9ade304e-dfc7-4650-8702-224b045e96f8</id>
-      <masked>false</masked>
-      <name>expectedEmail</name>
-   </variable>
-   <variable>
-      <defaultValue>'Addrest 1 Addrest 2'</defaultValue>
-      <description></description>
-      <id>c08c58a7-c921-40bf-b200-32b0a1f46ad6</id>
-      <masked>false</masked>
-      <name>expectedAddress</name>
-   </variable>
-   <variable>
-      <defaultValue>'HCM Ho CHi Minh 70000'</defaultValue>
-      <description></description>
-      <id>f29a2f80-9c3a-46da-b213-2d7f32277ea5</id>
-      <masked>false</masked>
-      <name>expectedCityCode</name>
    </variable>
    <variable>
       <defaultValue>'https://thinking-tester-contact-list.herokuapp.com/contactDetails'</defaultValue>

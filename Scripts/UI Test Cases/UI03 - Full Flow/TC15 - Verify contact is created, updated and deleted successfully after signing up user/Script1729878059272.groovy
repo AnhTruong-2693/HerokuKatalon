@@ -85,7 +85,7 @@ Pages.addContactPage.inputFirstName(firstNameEdit)
 		.inputCountry(countryEdit)
 		.clickSubmit()
 		
-'12. Verify specific newly cretaed data in the table'
+'12. Verify newly created contact in the table'
 Pages.contactDetailPage.verifyUpdatedData('First Name:',firstNameEdit)
 		.verifyUpdatedData('Last Name:',lastNameEdit)
 		.verifyUpdatedData('Date of Birth:',dateOfBrithEdit)
@@ -107,3 +107,6 @@ WebUI.delay(3)
 int countContactRowAfterDelete = countContactRow - 1
 
 Pages.contactListPage.verifyNumberOfRow(countContactRowAfterDelete)
+
+'15. Verify data is not displayed in table'
+Pages.contactListPage.verifyDataNotDisplay('Email', contactEmail)

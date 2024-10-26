@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC14 - Verify contact is deleted successfully from Contact table when clicking OK button</name>
-   <tag></tag>
+   <tag>Contact - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>d1c3b130-93a8-4e2c-ade4-63991c043e31</testCaseGuid>
@@ -66,39 +66,15 @@
       <value></value>
       <variableId>3a7916cc-a024-4418-8791-d2f279661183</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>89b1dd88-2ba0-41e3-8e99-d7cdaae1ac69</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>077a78d2-3a4b-4e0a-8161-d7a46ddf6db7</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>91113768-179d-490d-9805-899eb8735703</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>412b18f0-c3a4-41d0-88c1-13e31adc5883</variableId>
-   </variableLinks>
    <variable>
-      <defaultValue>'TC14 Contact Name'</defaultValue>
+      <defaultValue>'TC14 Contact'</defaultValue>
       <description></description>
       <id>faff8b7c-49e7-491f-be84-59cdc329717b</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Name'</defaultValue>
       <description></description>
       <id>d9669da4-4e70-40ed-874c-eb3addae5159</id>
       <masked>false</masked>
@@ -159,33 +135,5 @@
       <id>3a7916cc-a024-4418-8791-d2f279661183</id>
       <masked>false</masked>
       <name>country</name>
-   </variable>
-   <variable>
-      <defaultValue>'Contact Name Test'</defaultValue>
-      <description></description>
-      <id>89b1dd88-2ba0-41e3-8e99-d7cdaae1ac69</id>
-      <masked>false</masked>
-      <name>expectedName</name>
-   </variable>
-   <variable>
-      <defaultValue>'contacttest@gmail.com'</defaultValue>
-      <description></description>
-      <id>077a78d2-3a4b-4e0a-8161-d7a46ddf6db7</id>
-      <masked>false</masked>
-      <name>expectedEmail</name>
-   </variable>
-   <variable>
-      <defaultValue>'Addrest 1 Addrest 2'</defaultValue>
-      <description></description>
-      <id>91113768-179d-490d-9805-899eb8735703</id>
-      <masked>false</masked>
-      <name>expectedAddress</name>
-   </variable>
-   <variable>
-      <defaultValue>'HCM Ho CHi Minh 70000'</defaultValue>
-      <description></description>
-      <id>412b18f0-c3a4-41d0-88c1-13e31adc5883</id>
-      <masked>false</masked>
-      <name>expectedCityCode</name>
    </variable>
 </TestCaseEntity>

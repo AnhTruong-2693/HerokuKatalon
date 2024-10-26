@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC17 - Verify contact is updated successfully when sending POST command for Update Contact endpoint</name>
-   <tag></tag>
+   <tag>Contact - API</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ea667185-91ca-472d-927a-1de3c063e51a</testCaseGuid>

@@ -3,7 +3,7 @@ import heroku.PageObjects as Pages
 
 '1. Login to the site'
 Pages.signUpPage.navToPage().logIn()
-		
+
 '2. Clean-up data before creating new contact'
 Pages.contactListPage.cleanUpContactRow('Phone', phone)
 
@@ -19,19 +19,19 @@ String contactEmail = Pages.addContactPage.createRandomEmail()
 
 // Input data to all fields then click Submit
 Pages.addContactPage.inputFirstName(firstName)
-        .inputLastName(lastName)
-        .inputDateOfBirth(dateOfBrith)
-        .inputEmail(contactEmail)
-        .inputPhone(phone)
-        .inputStreetAddress1(streetAddress1)
-        .inputStreetAddress2(streetAddress2)
-        .inputCity(city)
-        .inputStateOrProvince(stateOrProvince)
-        .inputPostalCode(postalCode)
-        .inputCountry(country)
-        .clickSubmit()
-		
-'6. Verify newly created data in the table'	
+		.inputLastName(lastName)
+		.inputDateOfBirth(dateOfBrith)
+		.inputEmail(contactEmail)
+		.inputPhone(phone)
+		.inputStreetAddress1(streetAddress1)
+		.inputStreetAddress2(streetAddress2)
+		.inputCity(city)
+		.inputStateOrProvince(stateOrProvince)
+		.inputPostalCode(postalCode)
+		.inputCountry(country)
+		.clickSubmit()
+
+'6. Verify newly created data in the table'
 // Prepare expected values for combine fields
 String expectedName = "${firstName} ${lastName}"
 String expectedAddress = "${streetAddress1} ${streetAddress2}"

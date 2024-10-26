@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC01 - Verify user gets an error message when signing up a user without email</name>
-   <tag></tag>
+   <tag>User - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>1799a039-52fd-46b5-873e-829dc5672f6a</testCaseGuid>
@@ -44,14 +44,14 @@
       <name>addUserUrl</name>
    </variable>
    <variable>
-      <defaultValue>'User Anh 1'</defaultValue>
+      <defaultValue>'TC01 Anh'</defaultValue>
       <description></description>
       <id>05b3e3b4-3b10-4bf5-9a39-edbc3f26877f</id>
       <masked>false</masked>
       <name>userFirstName</name>
    </variable>
    <variable>
-      <defaultValue>'User Truong'</defaultValue>
+      <defaultValue>'Truong'</defaultValue>
       <description></description>
       <id>c0aa5811-e6cd-4747-88aa-7ddcda1e067f</id>
       <masked>false</masked>

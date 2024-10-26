@@ -1,9 +1,8 @@
 package heroku
-import heroku.ElementPage
-import internal.GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import heroku.PageObjects as Pages
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
 
 public class SignUpPage {
 

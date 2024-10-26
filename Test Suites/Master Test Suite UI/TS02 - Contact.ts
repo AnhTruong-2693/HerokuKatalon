@@ -4,7 +4,7 @@
    <name>TS02 - Contact</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>anhtruong@kms-technology.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -143,24 +143,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c4b16924-f6e7-4132-97b2-af42be0a7349</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fefa8af6-3cd0-40bc-a48a-8847d74ff46b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b6aa5c44-b264-4694-a10a-bfe845b1b41c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>468e17cd-2295-4ce6-b884-6a90e65efa3d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -463,30 +445,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3cd52460-9d3d-4d24-bf66-625c86bcdfd2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ad251904-3460-4256-94c6-7368736b7988</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1ab3801f-aeee-49bc-a0fe-104d15ddb89f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>da59d28b-cdc5-48f5-b578-e3df150d2bf9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>863f6058-f899-4686-9ffb-be89877521cb</variableId>
       </variableLink>
       <variableLink>
@@ -620,30 +578,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6ac14b95-7bab-47a4-b0be-aa7858b4ad68</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9ade304e-dfc7-4650-8702-224b045e96f8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c08c58a7-c921-40bf-b200-32b0a1f46ad6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f29a2f80-9c3a-46da-b213-2d7f32277ea5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>9529b184-94f0-4714-882f-ac945b680fe7</variableId>
       </variableLink>
    </testCaseLink>
@@ -712,30 +646,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>3a7916cc-a024-4418-8791-d2f279661183</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>89b1dd88-2ba0-41e3-8e99-d7cdaae1ac69</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>077a78d2-3a4b-4e0a-8161-d7a46ddf6db7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>91113768-179d-490d-9805-899eb8735703</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>412b18f0-c3a4-41d0-88c1-13e31adc5883</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

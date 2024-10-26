@@ -14,6 +14,7 @@ Pages.contactListPage.clickAddNewContact()
 // Generate a random email
 String contactEmail = Pages.addUserPage.createRandomEmail()
 
+// Input data to all fields then click Submit
 Pages.addContactPage.inputFirstName(firstName)
         .inputLastName(lastName)
         .inputDateOfBirth(dateOfBrith)
@@ -33,7 +34,7 @@ Pages.contactListPage.clickDataOnTable('Phone', phone)
 '6. Click Edit Contact button'
 Pages.contactDetailPage.clickEditContact()
 
-'7. Edit all data in contact then click Submit'
+'7. Edit all data in Contact form then click Submit'
 Pages.addContactPage.inputFirstName(firstNameEdit)
 		.inputLastName(lastNameEdit)
 		.inputDateOfBirth(dateOfBrithEdit)
@@ -47,7 +48,7 @@ Pages.addContactPage.inputFirstName(firstNameEdit)
 		.inputCountry(countryEdit)
 		.clickSubmit()
 
-'8. Verify newly updated data in the table'
+'8. Verify newly updated data in the Contact form'
 Pages.contactDetailPage.verifyUpdatedData('First Name:',firstNameEdit)
 		.verifyUpdatedData('Last Name:',lastNameEdit)
 		.verifyUpdatedData('Date of Birth:',dateOfBrithEdit)

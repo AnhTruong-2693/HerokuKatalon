@@ -20,7 +20,7 @@ Pages.addContactPage.inputFirstName(firstName)
         .inputDateOfBirth(dateOfBrith)
         .inputEmail(contactEmail)
         .inputPhone(phone)
-        .inputStreetAddress1(streetAddress1)
+		.inputStreetAddress1(streetAddress1)
         .inputStreetAddress2(streetAddress2)
         .inputCity(city)
         .inputStateOrProvince(stateOrProvince)
@@ -48,7 +48,7 @@ Pages.addContactPage.inputFirstName(firstNameEdit)
 		.inputCountry(countryEdit)
 		.clickCancel()
 
-'8. Verify data in the table'
+'8. Verify data in the Contact form is not changed'
 Pages.contactDetailPage.verifyUpdatedData('First Name:',firstName)
 		.verifyUpdatedData('Last Name:',lastName)
 		.verifyUpdatedData('Date of Birth:',dateOfBrith)

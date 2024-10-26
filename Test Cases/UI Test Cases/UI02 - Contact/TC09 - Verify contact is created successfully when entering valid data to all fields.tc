@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC09 - Verify contact is created successfully when entering valid data to all fields</name>
-   <tag></tag>
+   <tag>Contact - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>2fb2348e-b5ca-455d-8777-98ce6d5f2c6e</testCaseGuid>
@@ -66,33 +66,15 @@
       <value></value>
       <variableId>c4b16924-f6e7-4132-97b2-af42be0a7349</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>fefa8af6-3cd0-40bc-a48a-8847d74ff46b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>b6aa5c44-b264-4694-a10a-bfe845b1b41c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>468e17cd-2295-4ce6-b884-6a90e65efa3d</variableId>
-   </variableLinks>
    <variable>
-      <defaultValue>'TC09 Contact Name'</defaultValue>
+      <defaultValue>'TC09 Contact'</defaultValue>
       <description></description>
       <id>7fc69283-b6e9-4f73-9db4-ec3800336bfd</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Name'</defaultValue>
       <description></description>
       <id>9ddb8574-b1b7-40e7-b9ae-3a9d915eb4b5</id>
       <masked>false</masked>
@@ -106,7 +88,7 @@
       <name>dateOfBrith</name>
    </variable>
    <variable>
-      <defaultValue>'0123456009'</defaultValue>
+      <defaultValue>'0123450009'</defaultValue>
       <description></description>
       <id>122debba-9f45-4e1c-a099-2def56a21cc7</id>
       <masked>false</masked>
@@ -153,26 +135,5 @@
       <id>c4b16924-f6e7-4132-97b2-af42be0a7349</id>
       <masked>false</masked>
       <name>country</name>
-   </variable>
-   <variable>
-      <defaultValue>'Contact Name Test'</defaultValue>
-      <description></description>
-      <id>fefa8af6-3cd0-40bc-a48a-8847d74ff46b</id>
-      <masked>false</masked>
-      <name>expectedName</name>
-   </variable>
-   <variable>
-      <defaultValue>'Addrest 1 Addrest 2'</defaultValue>
-      <description></description>
-      <id>b6aa5c44-b264-4694-a10a-bfe845b1b41c</id>
-      <masked>false</masked>
-      <name>expectedAddress</name>
-   </variable>
-   <variable>
-      <defaultValue>'HCM Ho CHi Minh 70000'</defaultValue>
-      <description></description>
-      <id>468e17cd-2295-4ce6-b884-6a90e65efa3d</id>
-      <masked>false</masked>
-      <name>expectedCityCode</name>
    </variable>
 </TestCaseEntity>

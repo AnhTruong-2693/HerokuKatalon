@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC05 - Verify user is created successfully when sending POST command for Add User endpoint</name>
-   <tag></tag>
+   <tag>User - API</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>0a48c701-17c5-4379-a128-8455f8aa4e55</testCaseGuid>

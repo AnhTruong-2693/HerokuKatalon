@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC15 - Verify contact is created, updated and deleted successfully after signing up user</name>
-   <tag></tag>
+   <tag>Full Flow - UI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>3739a762-520a-4a4d-a8c2-701fb7e627e6</testCaseGuid>
@@ -170,14 +170,14 @@
       <name>addUserUrl</name>
    </variable>
    <variable>
-      <defaultValue>'User Anh 1'</defaultValue>
+      <defaultValue>'TC15 User'</defaultValue>
       <description></description>
       <id>11267680-1cba-4105-b13a-32f851398b73</id>
       <masked>false</masked>
       <name>userFirstName</name>
    </variable>
    <variable>
-      <defaultValue>'User Truong'</defaultValue>
+      <defaultValue>'Test'</defaultValue>
       <description></description>
       <id>16eacfde-8778-4fe9-ba63-e82ddbd49b59</id>
       <masked>false</masked>
@@ -198,14 +198,14 @@
       <name>contactListUrl</name>
    </variable>
    <variable>
-      <defaultValue>'TC15 Contact Name'</defaultValue>
+      <defaultValue>'TC15 Contact'</defaultValue>
       <description></description>
       <id>074383af-1d19-42af-97f5-44a9ce94f4e3</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Name'</defaultValue>
       <description></description>
       <id>2757a3a9-e829-4c99-b96c-41e62da27d49</id>
       <masked>false</masked>
@@ -268,7 +268,7 @@
       <name>country</name>
    </variable>
    <variable>
-      <defaultValue>'C15 Name'</defaultValue>
+      <defaultValue>'C15 Contact1'</defaultValue>
       <description></description>
       <id>35f6e5fe-ce36-41bd-894a-6670c720076a</id>
       <masked>false</masked>
