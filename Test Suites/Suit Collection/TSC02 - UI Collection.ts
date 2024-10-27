@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Master Test Suite UI/TS01 - User</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite UI/TS01 - User</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Master Test Suite UI/TS02 - Contact</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite UI/TS02 - Contact</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Master Test Suite UI/TS03 - Workflow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite UI/TS03 - Workflow</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

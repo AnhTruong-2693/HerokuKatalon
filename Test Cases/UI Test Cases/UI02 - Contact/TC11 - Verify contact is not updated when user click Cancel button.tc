@@ -70,24 +70,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>715ea79c-790b-4aaa-9a51-c2203bedcf86</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f4c306fd-2c4b-463f-b768-cab73601614c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e5168c3b-7174-4b82-8322-75488ff0a5fe</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>4981a890-216e-4d49-8945-613994296f14</variableId>
    </variableLinks>
    <variableLinks>
@@ -219,27 +201,6 @@
       <id>04515b94-524f-4a93-95e0-1a2e7f400210</id>
       <masked>false</masked>
       <name>country</name>
-   </variable>
-   <variable>
-      <defaultValue>'TC11 Contact Name Test'</defaultValue>
-      <description></description>
-      <id>715ea79c-790b-4aaa-9a51-c2203bedcf86</id>
-      <masked>false</masked>
-      <name>expectedName</name>
-   </variable>
-   <variable>
-      <defaultValue>'Addrest 1 Addrest 2'</defaultValue>
-      <description></description>
-      <id>f4c306fd-2c4b-463f-b768-cab73601614c</id>
-      <masked>false</masked>
-      <name>expectedAddress</name>
-   </variable>
-   <variable>
-      <defaultValue>'HCM Ho CHi Minh 70000'</defaultValue>
-      <description></description>
-      <id>e5168c3b-7174-4b82-8322-75488ff0a5fe</id>
-      <masked>false</masked>
-      <name>expectedCityCode</name>
    </variable>
    <variable>
       <defaultValue>'TC11 Contact NameEdit'</defaultValue>

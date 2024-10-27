@@ -5,88 +5,106 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>anhtruong@kms-technology.com;</mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5635e605-bdef-427e-8c71-b98d27a0c554</testSuiteGuid>
    <testCaseLink>
-      <guid>a93d3c55-8f3d-4914-ab2e-4c14055080b3</guid>
+      <guid>ee9f8f16-87fe-4053-a595-fef6d2a50fb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UI Test Cases/UI01 - User/TC01 - Verify user gets an error message when signing up a user without email</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>704dbe92-f730-4636-81da-15e994fcff4c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Files/TC01</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>704dbe92-f730-4636-81da-15e994fcff4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>addUserUrl</value>
          <variableId>8b763495-ee60-4dfe-b713-b123af8f3d36</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>704dbe92-f730-4636-81da-15e994fcff4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userFirstName</value>
          <variableId>05b3e3b4-3b10-4bf5-9a39-edbc3f26877f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>704dbe92-f730-4636-81da-15e994fcff4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userLastName</value>
          <variableId>c0aa5811-e6cd-4747-88aa-7ddcda1e067f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>704dbe92-f730-4636-81da-15e994fcff4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userPassword</value>
          <variableId>eb589c45-ebe9-48ab-8ac4-ae1813f81e16</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>704dbe92-f730-4636-81da-15e994fcff4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedMessage</value>
          <variableId>8e3f814d-8958-4e82-936e-9862265d43ae</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>73e73658-1470-44cc-b590-17348f4bb195</guid>
+      <guid>6477b1bc-c262-4d41-a071-ab03fdd48a71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UI Test Cases/UI01 - User/TC02 - Verify user gets an error message when signing up with password less than 7 chars</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>371a01f8-916a-4ead-bdf5-2871897a4173</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Files/TC02</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>371a01f8-916a-4ead-bdf5-2871897a4173</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>addUserUrl</value>
          <variableId>3416db6b-ad84-43fe-8828-77ad075aec34</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>371a01f8-916a-4ead-bdf5-2871897a4173</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userFirstName</value>
          <variableId>6ce92de8-a8ca-4ff5-9803-0caa7e37a335</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>645c9d30-2a7d-4ac4-a953-0169be6326d1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>371a01f8-916a-4ead-bdf5-2871897a4173</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userLastName</value>
          <variableId>8db19b55-4d8f-494d-8634-6dcae6358ed5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>371a01f8-916a-4ead-bdf5-2871897a4173</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userEmail</value>
+         <variableId>645c9d30-2a7d-4ac4-a953-0169be6326d1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>371a01f8-916a-4ead-bdf5-2871897a4173</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userPassword</value>
          <variableId>b9a7d905-2ce3-4d12-a00a-142de16cb3cb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7183f20-5cc5-42f0-b44c-a65c7967d267</guid>
+      <guid>48590a4d-f97d-4096-a51f-1282cf6cd15e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UI Test Cases/UI01 - User/TC03 - Verify user can login successfully</testCaseId>

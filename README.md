@@ -36,6 +36,13 @@
 - Suit Collection: Group multiple test suites to run together
 
 
+### Data Files
+- Link Test Data to a Test Case
+   + Contact Files: Link Test Data to UI Contact test case. A sheet contains data test for a test case
+   + User Files: Link Test Data to UI User test case. A sheet contains data test for a test case
+   + Full Flow: Link Test Data to UI Full Flow test case. A sheet contains data test for a test case
+
+
 ###  **Keywords**
 - hekoru: Contains classes with functions and properties are used in UI test cases
    + PageObjects: Generate new instances to avoid creating new instances in test case
@@ -49,3 +56,7 @@
 
 ###  **Test Listeners**
 - BrowserListener class: Open and close the browser automatically so that do not add manual in test cases
+
+
+### Test Data
+- Create the Data File to run test case/ test suites with an other set of data
