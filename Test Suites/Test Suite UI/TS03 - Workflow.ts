@@ -15,7 +15,7 @@
       <guid>21267239-0200-47ad-b72b-739bb0cf94fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI03 - Full Flow/TC15 - Verify contact is created, updated and deleted successfully after signing up user</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI03 - Full Flow/TC15 - Verify contact is created, updated and deleted successfully after signing up user</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f207dc2b-d8aa-42b4-80e9-d1a0bc468a4f</id>

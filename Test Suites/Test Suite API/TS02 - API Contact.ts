@@ -15,7 +15,7 @@
       <guid>9838ed70-650c-4e28-b466-5922c3183b34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Test Cases/API02 -API Contact/TC16 - Verify contact is created successfully when sending POST command for Add Contact endpoint</testCaseId>
+      <testCaseId>Test Cases/Test Cases API/API02 -API Contact/TC16 - Verify contact is created successfully when sending POST command for Add Contact endpoint</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -82,7 +82,7 @@
       <guid>5aac2e9b-80d7-4ad7-9b00-f2f7ccf24871</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Test Cases/API02 -API Contact/TC17 - Verify contact is updated successfully when sending POST command for Update Contact endpoint</testCaseId>
+      <testCaseId>Test Cases/Test Cases API/API02 -API Contact/TC17 - Verify contact is updated successfully when sending POST command for Update Contact endpoint</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -209,7 +209,7 @@
       <guid>be116031-2399-4d8f-bddd-3be2c11f6a6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Test Cases/API02 -API Contact/TC18 - Verify contact is deleted successfully when sending POST command for Delete Contact endpoint</testCaseId>
+      <testCaseId>Test Cases/Test Cases API/API02 -API Contact/TC18 - Verify contact is deleted successfully when sending POST command for Delete Contact endpoint</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

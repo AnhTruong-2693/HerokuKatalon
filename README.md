@@ -9,11 +9,11 @@
 
 
 ###  **Test Cases**
-- Store API test cases
+- Test Cases API: Store API test cases
    + API01 - API User
    + API02 - API Contact
 
-- Store UI test cases
+- Test Cases API: Store UI test cases
    + UI01 - User
    + UI02 - Contact
    + UI03 - Full Flow
@@ -24,11 +24,11 @@
 
 
 ### **Test Suites**
-- Master Test Suite API: Store API test suites
+- Test Suite API: Store API test suites
    + API01 - API User
    + API02 - API Contact
 
-- Master Test Suite UI: Store UI test suites
+- Test Suite UI: Store UI test suites
    + UI01 - User
    + UI02 - Contact
    + UI03 - Full Flow

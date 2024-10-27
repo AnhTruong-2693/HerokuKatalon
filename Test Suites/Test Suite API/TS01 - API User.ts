@@ -15,14 +15,14 @@
       <guid>4ee069e3-a596-461b-bb94-a05d6dee955b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC04 - Verify the user is able to login successfully after sending POST command for Login endpoint</testCaseId>
+      <testCaseId>Test Cases/Test Cases API/API01 - API User/TC04 - Verify the user is able to login successfully after sending POST command for Login endpoint</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>bbb373c4-b80b-4dc5-8083-777a10cac5e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC05 - Verify user is created successfully when sending POST command for Add User endpoint</testCaseId>
+      <testCaseId>Test Cases/Test Cases API/API01 - API User/TC05 - Verify user is created successfully when sending POST command for Add User endpoint</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -41,7 +41,7 @@
       <guid>5dc0087a-16fe-4138-ba4b-24405b726102</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC06 - Verify user is updated successfully when sending PATCH command for update user endpoint</testCaseId>
+      <testCaseId>Test Cases/Test Cases API/API01 - API User/TC06 - Verify user is updated successfully when sending PATCH command for update user endpoint</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -72,7 +72,7 @@
       <guid>27049378-6d1f-46ec-8409-68c0930db66c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Test Cases/API01 - API User/TC07 - Verify user is deleted successfully when sending DELETE command for Delete User endpoint</testCaseId>
+      <testCaseId>Test Cases/Test Cases API/API01 - API User/TC07 - Verify user is deleted successfully when sending DELETE command for Delete User endpoint</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

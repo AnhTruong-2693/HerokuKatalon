@@ -15,7 +15,7 @@
       <guid>9dc98f00-97b8-40eb-9318-538ab8bbf7b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI02 - Contact/TC08 - Verify user get an error message when leaving blank First Name and Last Name</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI02 - Contact/TC08 - Verify user get an error message when leaving blank First Name and Last Name</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>48715423-3f0c-4219-902e-70603fe8a27d</id>
@@ -91,7 +91,7 @@
       <guid>9966b61d-42e8-47f9-95e6-11bc73e02bc0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI02 - Contact/TC09 - Verify contact is created successfully when entering valid data to all fields</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI02 - Contact/TC09 - Verify contact is created successfully when entering valid data to all fields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>15bca052-50cd-47ce-ac36-c5aaf31516ad</id>
@@ -167,7 +167,7 @@
       <guid>2f5798ec-5461-483f-a1e1-5b5c97d3525f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI02 - Contact/TC10 - Verify error message when updating contact with invalid Date of Birth format</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI02 - Contact/TC10 - Verify error message when updating contact with invalid Date of Birth format</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>966f3869-6b32-45c1-bf5f-98aa85aa13df</id>
@@ -255,7 +255,7 @@
       <guid>779de468-abb5-4823-b30f-e194235acf88</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI02 - Contact/TC11 - Verify contact is not updated when user click Cancel button</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI02 - Contact/TC11 - Verify contact is not updated when user click Cancel button</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8f297afe-61a6-4e4e-a5a8-a755bc45054c</id>
@@ -397,7 +397,7 @@
       <guid>87938d4e-facb-4e5c-85a9-3891580813dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI02 - Contact/TC12 - Verify contact displays correct data after updated</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI02 - Contact/TC12 - Verify contact displays correct data after updated</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d4844d7d-acf1-400e-963d-41bff6f70495</id>
@@ -539,7 +539,7 @@
       <guid>9c311643-65d4-4f6c-ae1f-76b56c27be7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI02 - Contact/TC13 - Verify contact is not deleted when clicking Cancel button</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI02 - Contact/TC13 - Verify contact is not deleted when clicking Cancel button</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7f000436-72b1-44b0-9067-d332d9c78ede</id>
@@ -621,7 +621,7 @@
       <guid>e00d62b5-7e17-4dc9-b599-3ffb52ef704a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI02 - Contact/TC14 - Verify contact is deleted successfully from Contact table when clicking OK button</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI02 - Contact/TC14 - Verify contact is deleted successfully from Contact table when clicking OK button</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ea5afacb-d3d1-4634-9ac2-62fed81e15f4</id>

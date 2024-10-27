@@ -15,7 +15,7 @@
       <guid>ee9f8f16-87fe-4053-a595-fef6d2a50fb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI01 - User/TC01 - Verify user gets an error message when signing up a user without email</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI01 - User/TC01 - Verify user gets an error message when signing up a user without email</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>704dbe92-f730-4636-81da-15e994fcff4c</id>
@@ -61,7 +61,7 @@
       <guid>6477b1bc-c262-4d41-a071-ab03fdd48a71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI01 - User/TC02 - Verify user gets an error message when signing up with password less than 7 chars</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI01 - User/TC02 - Verify user gets an error message when signing up with password less than 7 chars</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>371a01f8-916a-4ead-bdf5-2871897a4173</id>
@@ -107,7 +107,7 @@
       <guid>48590a4d-f97d-4096-a51f-1282cf6cd15e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI Test Cases/UI01 - User/TC03 - Verify user can login successfully</testCaseId>
+      <testCaseId>Test Cases/Test Cases UI/UI01 - User/TC03 - Verify user can login successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
