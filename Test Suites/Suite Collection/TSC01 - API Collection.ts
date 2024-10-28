@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Master Test Suite API/TS01 - API User</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite API/TS01 - API User</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Master Test Suite API/TS02 - API Contact</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite API/TS02 - API Contact</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
