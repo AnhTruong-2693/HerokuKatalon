@@ -20,7 +20,7 @@ Pages.addUserPage.inputFirstName(userFirstName)
 		.inputPassword(userPassword)
         .clickSubmit()
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 '4. Verify user is taken to Contact List page'
 Pages.addUserPage.verifySignUpAndLogIn(contactListUrl)
