@@ -9,6 +9,7 @@ def loginPayload = JsonOutput.toJson([
 	"email": GlobalVariable.email,
 	"password": GlobalVariable.password
 ])
+// Anh add codes
 // Thuat add codes
 // line 4
 // Send the POST Login User request
