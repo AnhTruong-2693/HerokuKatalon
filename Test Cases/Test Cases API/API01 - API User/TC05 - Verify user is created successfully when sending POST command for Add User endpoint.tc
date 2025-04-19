@@ -30,6 +30,6 @@
       <description></description>
       <id>da589ac6-9fc6-4665-a29f-a2a31248157a</id>
       <masked>false</masked>
-      <name>lastName</name>
+      <name>lastname</name>
    </variable>
 </TestCaseEntity>
