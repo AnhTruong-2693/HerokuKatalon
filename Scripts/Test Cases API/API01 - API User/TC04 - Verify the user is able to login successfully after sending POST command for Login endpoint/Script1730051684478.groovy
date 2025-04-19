@@ -1,7 +1,7 @@
 import groovy.json.JsonOutput
 import heroku.api.ApiObjects
 import internal.GlobalVariable
-
+as
 
 '1. Send the Login User request'
 // Define loginPayload
@@ -11,7 +11,7 @@ def loginPayload = JsonOutput.toJson([
 ])
 // Anh add codes
 // Thuat add codes
-// line 4
+
 // Send the POST Login User request
 ApiObjects.baseAPI.createRequestObject()
 		.sendRequest('/users/login', 'POST', loginPayload)
