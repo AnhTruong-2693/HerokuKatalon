@@ -9,7 +9,8 @@ def loginPayload = JsonOutput.toJson([
 	"email": GlobalVariable.email,
 	"password": GlobalVariable.password
 ])
-
+// Thuat add codes
+// line 2
 // Send the POST Login User request
 ApiObjects.baseAPI.createRequestObject()
 		.sendRequest('/users/login', 'POST', loginPayload)
